@@ -12,5 +12,5 @@
         android:inputType="textPersonName"
         android:paddingStart="15dp"
         android:paddingEnd="15dp"
-        android:textSize="24sp" />
+        android:textSize="18sp" />
 </LinearLayout>

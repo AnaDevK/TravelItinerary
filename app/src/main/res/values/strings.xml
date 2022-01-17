@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">MapYourWay</string>
+    <string name="app_name">Travel Itinerary</string>
     <string name="title_activity_display_map">Map</string>
     <string name="title_activity_create_map">Map</string>
+    <string name="header_image_content_description">Maps header drawer image</string>
+    <string name="navigation_view_header_title">MapMyWay</string>
 </resources>

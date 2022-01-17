@@ -7,4 +7,13 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="delete_item">#F0291A</color>
+    <color name="list_item">#E9E2E2</color>
+    <color name="lightGreen">#FFE3F6CE</color>
+    <color name="darkGreen">#309834</color>
+    <color name="primaryGreen">#FF1A751E</color>
+    <color name="darkBrown">#5A463F</color>
+    <color name="lightBrown">#BC944C</color>
+    <color name="bgBrown">#F4EFDB</color>
+    <color name="colorPrimaryDark">#263238</color>
 </resources>

@@ -9,7 +9,11 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.app.mapyourway.models.UserMap
 
-class MapsAdapter(val context: Context, val userMaps: List<UserMap>, val onClickListener: OnClickListener) : RecyclerView.Adapter<MapsAdapter.ViewHolder>() {
+class MapsAdapter(
+    val context: Context,
+    val userMaps: List<UserMap>,
+    val onClickListener: OnClickListener
+) : RecyclerView.Adapter<MapsAdapter.ViewHolder>() {
 
     companion object {
         private const val TAG = "MapsAdapter"
@@ -26,7 +30,7 @@ class MapsAdapter(val context: Context, val userMaps: List<UserMap>, val onClick
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val userMap = userMaps[position]
-        holder.itemView.setOnClickListener{
+        holder.itemView.setOnClickListener {
             Log.i(TAG, "Tapped on position: $position")
             onClickListener.onItemClick(position)
         }
